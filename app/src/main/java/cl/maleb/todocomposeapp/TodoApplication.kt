@@ -1,6 +1,8 @@
 package cl.maleb.todocomposeapp
 
 import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class TodoApplication: Application() {
+@HiltAndroidApp
+class TodoApplication : Application() {
 }
